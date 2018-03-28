@@ -23,4 +23,4 @@ recordMazeSolution():
 			move back to original position  
 ```
 ## class(es), with fields and methods
-## version*n* wish list
+## version *n* wish list
