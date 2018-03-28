@@ -11,14 +11,16 @@ The recursive abstraction can create a list of direction for the maze one legal 
 ## base case
 The starting location is the goal i.e. the goal has been reached.
 ## English or pseudocode description of algorithm
-recordMazeSolution(): 
-	if position on goal
-		record list of directions 
-	else 
-		for each available path to take 
-			move one position on path
-			if legal path
-				invoke the recursive abstraction
-			move back to original position
+```
+recordMazeSolution():  
+	if position on goal  
+		record list of directions   
+	else   
+		for each available path to take   
+			move one position on path  
+			if legal path  
+				invoke the recursive abstraction  
+			move back to original position  
+```
 ## class(es), with fields and methods
 ## version*n* wish list
