@@ -4,8 +4,7 @@ Matthew Ming, Ray Onishi
 ## statement of problem
 Returns the Boolean value of the statement
 ```
-there exists a path through a given maze beginning
-at the starting location and ending at the goal. 
+there exists a path through a given maze beginning at the starting location and ending at the goal. 
 ```
 ## recursive abstraction
 When I asked to create a list of directions for the maze, beginning at the starting location and ending at the goal.
