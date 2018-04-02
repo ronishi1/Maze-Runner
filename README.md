@@ -8,7 +8,7 @@ there exists a path through a given maze beginning at the starting location and 
 ```
 ## recursive abstraction
 When I asked to return the boolean value of whether a path exists, beginning at the starting location and ending at the goal.
-The recursive abstraction can return the boolean value of whether a path exists for the maze one legal position closer to the goal.
+The recursive abstraction can return the boolean value of whether a path exists for the maze beginning one legal position closer to the goal.
 ## base case
 The starting location is the goal i.e. the goal has been reached.
 ## English or pseudocode description of algorithm
