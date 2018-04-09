@@ -11,8 +11,7 @@ When I am asked to return the boolean value of whether a path exists, beginning 
 the recursive abstraction can return the boolean value of whether a path exists for the maze beginning one legal position closer to the goal.
 ## base cases
 The starting location is the goal i.e. the goal has been reached.  
-The starting location is not outside the maze.  
-The starting location is not in a wall.
+The starting location is not in a valid location in the maze.
 ## English or pseudocode description of algorithm
 ```
 recordMazeSolution():  
