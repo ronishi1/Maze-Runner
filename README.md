@@ -16,7 +16,9 @@ The starting location is not in a valid location in the maze.
 ```
 recordMazeSolution():  
 	if position on goal  
-		record list of directions   
+		return true 
+	else if position not valid
+		return false
 	else   
 		for each available path to take   
 			move one position on path  
