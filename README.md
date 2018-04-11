@@ -14,17 +14,18 @@ The starting location is the goal i.e. the goal has been reached.
 The starting location is not in a valid location in the maze.
 ## English or pseudocode description of algorithm
 ```
-recordMazeSolution():  
+recordMazeSolution(maze):  
 	if position on goal  
 		return true 
 	else if position not valid
 		return false
 	else   
-		for each available path to take   
+		for each available path to take
+			record snapshot of maze
 			move one position on path  
 			if legal path  
 				invoke the recursive abstraction  
-			move back to original position  
+			move back to original position using snapshot  
 ```
 ## class(es), with fields and methods
 ## version *n* wish list
