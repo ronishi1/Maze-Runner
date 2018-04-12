@@ -23,8 +23,7 @@ recordMazeSolution(maze):
 		for each available path to take
 			record snapshot of maze
 			move one position on path  
-			if legal path  
-				invoke the recursive abstraction  
+			invoke the recursive abstraction  
 			move back to original position using snapshot  
 ```
 ## class(es), with fields and methods
