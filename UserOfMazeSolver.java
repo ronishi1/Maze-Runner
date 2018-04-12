@@ -13,7 +13,7 @@ public class UserOfMazeSolver{
         System.out.println();
 
         MazeSolver solver;
-	Maze mazeSample = new Maze( "mazes\\intersection_treasureNorth.txt"
+	Maze mazeSample = new Maze( "mazes/intersection_treasureNorth.txt"
                             ,1
                             ,1
                             );
