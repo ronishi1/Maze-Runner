@@ -32,5 +32,7 @@ recordMazeSolution(maze):
 	else
 		return false
 ```
+## known bugs
+None(as of yet)
 ## class(es), with fields and methods
 ## version *n* wish list
