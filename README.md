@@ -16,15 +16,21 @@ The starting location is not in a valid location in the maze.
 ```
 recordMazeSolution(maze):  
 	if position on goal  
+		record valid path
 		return true 
 	else if position not valid
 		return false
 	else   
 		for each available path to take
 			record snapshot of maze
+			place barrier on current position
 			move one position on path  
 			invoke the recursive abstraction  
-			move back to original position using snapshot  
+			move back to original position using snapshot
+	if there are valid paths
+		return true
+	else
+		return false
 ```
 ## class(es), with fields and methods
 ## version *n* wish list
