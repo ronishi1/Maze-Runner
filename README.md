@@ -27,7 +27,7 @@ recordMazeSolution(maze):
 			move one position on path  
 			invoke the recursive abstraction  
 			move back to original position using snapshot
-	if there are valid paths
+	if there are recorded valid paths
 		return true
 	else
 		return false
