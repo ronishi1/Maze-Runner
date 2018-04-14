@@ -36,6 +36,6 @@ recordMazeSolution(maze):
 None(as of yet)
 ## class(es), with fields and methods
 ## v1
-Returns the number of possible paths
+Returns the number of possible paths  
 Added comments for clarity
 ## version *n* wish list
